@@ -1,0 +1,322 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.hero{
+    background-image:url(../assets/hero.png);
+    max-width: 100%;
+    background-color: #38100D;
+    height: 115vh;
+    background-repeat: no-repeat;
+    background-position:center ;
+    background-size: 100%;
+    background-position-y: 1.5%;
+}
+
+.inicio{
+display: flex;
+color: #CBBDA9;
+}
+
+.titulo{
+    display: flex;
+    flex-direction: column;
+    margin-top: 6.8rem;
+    margin-left:60.0rem;
+    width: 38.6rem;
+    letter-spacing: 0.15rem;
+    
+   
+}
+
+.prazer{
+    text-align: right;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 4.2rem;
+
+}
+.gustavo{
+    text-align: left;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 4.2rem;
+    padding-left: 6.1rem;
+
+
+}
+strong{
+    color: #8F5907;
+}
+
+.subtitulo{
+    position: absolute;
+    height: 20vh;
+    width: 41%;
+    left: 50%;
+    top: 44%;
+    transform: translate(-50%,-50%); 
+    
+}
+.hero h4{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 2.0rem;
+    line-height: 3.0rem;
+    letter-spacing: 0.2rem;
+    color: #B9A795;
+    margin-bottom: 0.8rem;
+}
+.primeiro{
+    margin-left: 30.2rem;
+    width: 56%;
+    text-align: right;
+}
+
+.segundo{
+    text-align: center;
+   
+}
+
+.terceiro{
+    
+    margin-right:1.0rem;
+    text-align: left;
+}
+
+.topicos{
+    height: 15vh;
+    width: 30%;
+    position: absolute;
+    left: 40%;
+    bottom: 15%;
+    transform: translate(-50%,-50%); 
+    
+}
+
+.topicos li{
+    margin-bottom: 2.0rem;
+    list-style-image:url(../assets/triangulo.svg);
+}
+
+.topicos a{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 2.0rem;
+    letter-spacing: 0.1em;
+    color: #8F5907;
+    text-decoration: none;
+
+}
+
+.biografia{
+    width: 100%;
+    background-color:#D1B9B7;
+    display: flex;   
+  
+}
+
+.biografia__texto{
+    width:50%;   
+}
+
+.biografia__texto h2{
+    width: auto;
+    margin-top: 6.3rem;
+    margin-left: 13.8rem;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 3.8rem;
+    color: #8F5907;
+  
+}
+.biografia__texto h2::before{
+    content: url(../assets/trangulao.svg);  
+    width:50%;
+    height: 10vh;
+    margin-right: 1.0rem;
+}
+
+.biografia__texto p{
+    width:40.4rem;
+    margin-top: 7.2rem;
+    margin-left: 17.3rem;
+    font-family: 'Rubik';
+    font-weight: 500;
+    font-size: 2.0rem;
+    line-height: 2.4rem;
+    letter-spacing: 0.15em;
+}
+
+.foto{
+    width:46.2rem;
+    margin: 5.6rem auto;
+}
+
+.portfolio{
+    width: 100%;
+    background-color: #430C08;
+    
+}
+
+
+.portfolio__texto1{
+  
+    display: flex;
+    text-align: center;
+    background-image: url(../assets/quadro.svg);
+    height:115vh;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position:center ;
+    
+  
+}
+
+.portfolio h2{
+    text-align: left;
+    width: auto;
+    padding-top: 2.5rem;
+    margin-left: 12.2rem;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 3.8rem;
+    color: #8F5907;
+}
+.portfolio h2::before{
+    content: url(../assets/trangulao.svg);  
+    width:50%;
+    height: 10vh;
+    margin-right: 1.0rem;
+} 
+.portfolio h5{
+    text-align: left;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 2.0rem;
+    color: #8F5907;
+    padding-top: 4.8rem;
+    margin-left: 17.5rem;
+    
+
+}   
+.portfolio h5::before{
+    content: url(../assets/triangulo.svg);  
+    width:50%;
+    height: 10vh;
+    margin-right: 0.8rem;
+}
+.portfolio__img{
+   
+    padding-top: 4.8rem;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 9.2rem;
+    
+    
+}
+
+.imagemweb{
+
+    height: 37.2rem;
+    display: flex;
+    justify-content: space-between;    
+    align-items: center;
+    gap:11.2rem;
+    padding-bottom: 10.8rem;
+ 
+}
+
+.portfolio__texto2{
+    box-shadow: 3px 4px 2px rgba(0, 0, 0, 0.5);
+    display: flex;
+    text-align: center;
+    background-image: url(../assets/quadro.svg);
+    height:115vh;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position:center ;
+    padding-inline: 16.0rem;
+}
+
+.imagemweb1{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 5.7rem;
+    margin: auto 4.0rem;
+}
+
+.contatos{
+    background-color: #38100D;
+    background-image: url(../assets/linha.svg);
+    background-repeat: no-repeat;
+    background-position:center ;
+    background-size: 80%;
+    background-position-y: 53%;
+    
+}
+
+.contatos h2{
+    width: auto;
+    padding-top: 3.0rem;
+    margin-left: 13.8rem;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 4.0rem;
+    color: #8F5907;
+    letter-spacing: 0.1rem;
+}
+
+.contatos h2::before{
+    content: url(../assets/trangulao.svg);  
+    width:50%;
+    height: 10vh;
+    margin-right: 1.0rem;
+}
+
+
+.up{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 25.4rem;
+    margin-top: 7.5rem;
+    margin-bottom: 2.5rem;
+}
+.down{
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 60.9rem;
+    margin-top: 3.2rem;
+    padding-bottom: 7.6rem;
+
+}
+.contatos h4{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 1.8rem;
+    color: #EDCEA0;
+    padding-bottom: 2.5rem;
+}
+
+
+   
+   
+   
+
